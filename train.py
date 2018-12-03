@@ -106,7 +106,7 @@ fill_mode ='nearest')  #fill newly created pixels as a result of rotations
 test_datagen = ImageDataGenerator(rescale=1./255)
 
 
-model.fit_generator(
+H = model.fit_generator(
     train_datagen.flow(train_X, train_Y, batch_size=3),
     steps_per_epoch=261//BATCH_SIZE, #NB_TRAIN_IMG
     epochs=20,
@@ -125,4 +125,4 @@ plt.title("Training Loss and Accuracy")
 plt.xlabel("Epoch #")
 plt.ylabel("Loss/Accuracy")
 plt.legend(loc="upper left")
-plt.savefig(args["plot"])
+plt.savefig("graph.png")
