@@ -20,6 +20,7 @@
    or
    pip install numpy matplotlib keras tensorflow imutils skikit-learn opencv-python 
 
+
 If using custom.py to train, change the variable dataset to the full path of the 'small' directory
 If using vgg.py to train, change the variables train_dir and validation_dir to
 train_dir - full path to data/tr
@@ -29,6 +30,8 @@ Training scripts are ran using
 	- python train.py 
 	or 
 	- python vgg.py
+
+
 
 
 Django:
