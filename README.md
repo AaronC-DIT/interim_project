@@ -49,8 +49,9 @@ To run Django, navigate to the django/django_projects/website, edit the permissi
 
 	Then navigate django/django_projects/website and run the command:
 	
-	python3 manage.py runserver 0.0.0.0:8000
-
+	If using a public IP: python3 manage.py runserver 0.0.0.0:8000
+        If using localhost: python3 manage.py runserver
+	
 In order to execute the remote script, you will need a remote server hosting a simple hello_world.py in the servers root directory
 that prints "Hello World" to the cli.
 Then change the IP, username, password in the file website/remotecon.py before running
