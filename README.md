@@ -39,6 +39,8 @@ Django:
 In order to install Django, follow the instructions here:
 https://docs.djangoproject.com/en/2.1/topics/install/
 
+Copy the 'website' directory to your django_projects folder
+
 To run Django, navigate to the django/django_projects/website, edit the permissions of the fils using:
 
 	chmod -R 777 django/django_projects/website
