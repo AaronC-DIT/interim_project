@@ -6,19 +6,19 @@
 2. pip3 comes installed with python by default, you must navigate to the directory which Python is installed if it is not in your
    $PATH variable in order to run both python and pip, or use the full path when running these scripts from a different directory
 
-	sudo apt-get install build-essential gfortran libatlas-base-dev python-pip python-dev
-	sudo pip install --upgrade pip
+		sudo apt-get install build-essential gfortran libatlas-base-dev python-pip python-dev
+		sudo pip install --upgrade pip
 
 	If this does not work, your Ubuntu installation may have its own method of installing scipy, please google to find out.
 	
 	if on windows install scipy by downloading scripy from http://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy
 	Then use
-	pip install <Scipy whl file here>
+			pip install <Scipy whl file here>
 
-
-   pip3 install numpy matplotlib keras tensorflow imutils skikit-learn Pillow opencv-python 
-   or
-   pip install numpy matplotlib keras tensorflow imutils skikit-learn Pillow opencv-python 
+	Other Requirements
+	
+   			pip3 install numpy matplotlib keras tensorflow imutils skikit-learn Pillow opencv-python 
+  			pip install numpy matplotlib keras tensorflow imutils skikit-learn Pillow opencv-python 
 
 
 If using custom.py to train, change the variable dataset to the full path of the 'small' directory
