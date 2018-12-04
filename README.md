@@ -52,9 +52,9 @@ Then navigate django/django_projects/website and run the command:
 	If using a public IP: python3 manage.py runserver 0.0.0.0:8000
         If using localhost: python3 manage.py runserver
 	
-In order to execute the remote script, you will need a remote server hosting a simple hello_world.py in the servers root directory
+In order to execute the remote script, you will need a remote server hosting the simple hello_world.py in the servers root directory
 that prints "Hello World" to the cli.
-Then change the IP, username, password in the file website/remotecon.py before running
+Then change the IP, username, password in the file website/remotecon.py before running remotecon.py
 
 
 
