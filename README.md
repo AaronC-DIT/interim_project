@@ -31,7 +31,7 @@ Training scripts are ran using
 	or 
 	- python vgg.py
 
-Datasets are split using train_test_split.py (Credit: https://gist.github.com/bertcarremans/679624f369ed9270472e37f8333244f5)
+Datasets are split using run_split.py which imports functions from train_test_split.py (Credit: https://gist.github.com/bertcarremans/679624f369ed9270472e37f8333244f5)
 Due to the limitations of Github Storage, both datasets for train.py and vgg.py have already been split and uploaded to
 https://megaupload.nz/p4o8D1m2b3/Datasets_zip
 
