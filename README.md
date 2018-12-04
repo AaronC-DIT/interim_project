@@ -16,9 +16,9 @@
 	pip install <Scipy whl file here>
 
 
-   pip3 install numpy matplotlib keras tensorflow imutils skikit-learn opencv-python 
+   pip3 install numpy matplotlib keras tensorflow imutils skikit-learn Pillow opencv-python 
    or
-   pip install numpy matplotlib keras tensorflow imutils skikit-learn opencv-python 
+   pip install numpy matplotlib keras tensorflow imutils skikit-learn Pillow opencv-python 
 
 
 If using custom.py to train, change the variable dataset to the full path of the 'small' directory
@@ -47,7 +47,7 @@ To run Django, navigate to the django/django_projects/website, edit the permissi
 
 	chmod -R 777 django/django_projects/website
 
-	Then navigate django/django_projects/website and run the command:
+Then navigate django/django_projects/website and run the command:
 	
 	If using a public IP: python3 manage.py runserver 0.0.0.0:8000
         If using localhost: python3 manage.py runserver
